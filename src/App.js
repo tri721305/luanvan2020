@@ -25,7 +25,7 @@ import Blog from './components/blog';
 import BlogDetails from './components/blog-details';
 import Login from './components/login'
 // import Login from 
-// import Plan from './components/plan'
+import Plan from './components/plan'
 
 class App extends Component {
     render() {
@@ -39,7 +39,7 @@ class App extends Component {
 	                    
 	                    <Route path="/tour-list-v2" component={TourListV2} />
 	                    
-						{/* <Route path="/plan" component={Plan} /> */}
+						<Route path="/plan" component={Plan} />
 	                    <Route path="/tour-details" component={TourDetails} />
 	                    <Route path="/destination-list" component={DestinationLIst} />
 	                    <Route path="/destination-list-v2" component={DestinationLIstV2} />
@@ -51,7 +51,6 @@ class App extends Component {
 	                    
 	                    <Route path="/user-profile" component={UserProfile} />
 	                    <Route path="/blog" component={Blog} />
-	                    
 	                    <Route path="/blog-details" component={BlogDetails} />
 	                </Switch>
 	                </div>
