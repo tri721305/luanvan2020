@@ -4,8 +4,9 @@ import Form from '../components/task/taskForm'
 export const Plan = () => {
     return (
         <>
-            {/* <Navbar /> */}
-            <Form />
+           
+            <Navbar />
+            <Form />     
         </>
     )
 }

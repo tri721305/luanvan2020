@@ -3,7 +3,7 @@ import TaskList from "./taskList"
 import TaskList2 from "./taskList2"
 import axios from 'axios';
 import { NotificationContainer, NotificationManager } from 'react-notifications';
-import  './style.css'
+// import  './style.css'
 class Form extends React.Component {
     state = {
         taskList: [{ index: Math.random(), projectName: "", task: "", taskNotes: "", taskStatus: "" }],
@@ -97,10 +97,11 @@ class Form extends React.Component {
         let { taskList } = this.state//let { notes, date, description, taskList } = this.state
         let { taskList2} =this.state
         return (
-            <div className="content">
+            <div className="taskForm">
+                <div className='backgroundplan'></div>
                 <NotificationContainer/>
-                <form onSubmit={this.handleSubmit} onChange={this.handleChange} >
-                    <div className="row" style={{ marginTop: 20 }}>
+                <form className='formT' onSubmit={this.handleSubmit} onChange={this.handleChange} >
+                    <div className="row" style={{ marginTop: 0 }}>
                         <div className="col-sm-1"></div>
                         <div className="col-sm-10">
                             <div className="card">
@@ -135,7 +136,7 @@ class Form extends React.Component {
                                         <tfoot>
                                             <tr><td colSpan="4">
                                                 <button onClick={this.addTriState} type="button" className="btn btn-primary text-center"><i className="fa fa-plus-circle" aria-hidden="true"></i></button>
-                                                {/* <button onClick={this.addNewRow} type="button" className="btn btn-primary text-center"><i className="fa fa-plus-circle" aria-hidden="true"></i></button> */}
+                                               
 
                                             </td></tr>
                                         </tfoot>
@@ -168,12 +169,11 @@ class Form extends React.Component {
                                     </thead>
                                     <tbody>
                                         <TaskList2 add={this.addNewRowDate} delete={this.clickOnDelete2.bind(this)} taskList={taskList2} />
-                                        {/* sua thanh addRow moi nha  */}
+                                        
                                     </tbody>
                                     <tfoot>
                                         <tr><td colSpan="4">
-                                            {/* <button onClick={this.addTriState} type="button" className="btn btn-primary text-center"><i className="fa fa-plus-circle" aria-hidden="true"></i></button> */}
-                                            {/* <button onClick={this.addNewRow} type="button" className="btn btn-primary text-center"><i className="fa fa-plus-circle" aria-hidden="true"></i></button> */}
+                                           
 
                                         </td></tr>
                                     </tfoot>
