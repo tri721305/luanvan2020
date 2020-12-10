@@ -73,6 +73,7 @@ class Navbar extends Component {
 			        <li className="menu-item-has-children">
 			          <a href="#">Pages</a>
 			          <ul className="sub-menu">
+						  <li><Link to="/plan">Create Plan</Link></li>
 			            {/* <li><Link to="/tour-list">Tours List</Link></li> */}
 			            <li><Link to="/tour-list-v2">Plan List</Link></li>
 			            {/* <li><Link to="/tour-list-v3">Tours List 03</Link></li> */}

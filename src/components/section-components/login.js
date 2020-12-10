@@ -82,7 +82,7 @@ class Login1 extends React.Component{
                         <div className="form">
                             <form onSubmit={this.handleSubmit}>
                                 <input className="buttonform" type="text" placeholder="Email" onChange={this.handleMail} />
-                                <input className="buttonform" type="text" placeholder="Password" onChange={this.handlePassword} />
+                                <input className="buttonform" type="password" placeholder="Password" onChange={this.handlePassword} />
                                 <Link className="btn btn-yellow" to="/tour-details" style={{float: 'right'}}>Sign In <i className="fa fa-arrow-right" /></Link>
                                 {console.log('hihi'+this.state.Success)}
                                 

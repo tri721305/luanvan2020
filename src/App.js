@@ -23,7 +23,8 @@ import Blog from './components/blog';
 import BlogDetails from './components/blog-details';
 import Login from './components/login'
 // import Login from 
-import Plan from './components/plan'
+import Plan from './components/plan1'
+import Search from './components/section-components/search.js'
 
 class App extends Component {
     render() {
@@ -32,13 +33,13 @@ class App extends Component {
 	                <div>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV1} />
-	                    {/* <Route path="/about" component={AboutUs} />
+	                    <Route path="/about" component={AboutUs} />
 						<Route path="/login" component={Login} />
 	                    
-	                    <Route path="/tour-list-v2" component={TourListV2} /> */}
+	                    <Route path="/tour-list-v2" component={TourListV2} />
 	                    
 						<Route path="/plan" component={Plan} />
-	                    {/* <Route path="/tour-details" component={TourDetails} />
+	                    <Route path="/tour-details" component={TourDetails} />
 	                    <Route path="/destination-list" component={DestinationLIst} />
 	                    <Route path="/destination-list-v2" component={DestinationLIstV2} />
 	                    <Route path="/destination-details" component={DestinationDetails} />
@@ -49,7 +50,7 @@ class App extends Component {
 	                    
 	                    <Route path="/user-profile" component={UserProfile} />
 	                    <Route path="/blog" component={Blog} />
-	                    <Route path="/blog-details" component={BlogDetails} /> */}
+	                    <Route path="/blog-details" component={BlogDetails} />
 	                </Switch>
 	                </div>
 				</HashRouter>

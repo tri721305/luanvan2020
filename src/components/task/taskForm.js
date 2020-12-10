@@ -102,12 +102,12 @@ class Form extends React.Component {
                 <NotificationContainer/>
                 <form className='formT' onSubmit={this.handleSubmit} onChange={this.handleChange} >
                     <div className="row" style={{ marginTop: 0 }}>
-                        <div className="col-sm-1"></div>
-                        <div className="col-sm-10">
+                        {/* <div className="col-sm-1"></div> */}
+                        <div className="">
                             <div className="card">
                                 <div className="card-header text-center">Add Your Daily Task</div>
                                 <div className="card-body">
-                                    <div className="row">
+                                    {/* <div className="row">
                                         <div className="col-sm-4">
                                             <div className="form-group ">
                                                 <label className="required">Date</label>
@@ -120,10 +120,11 @@ class Form extends React.Component {
                                                 <textarea name="description"  id="description" className="form-control"></textarea>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <table className="table">
                                         <thead>
                                             <tr>
+                                                {/* <th className="required">Date</th> */}
                                                 <th className="required" >Your Action</th>
                                                 <th className="required" >Address</th>
                                                 <th>Notes</th>
@@ -133,54 +134,17 @@ class Form extends React.Component {
                                         <tbody>
                                             <TaskList add={this.addNewRow} delete={this.clickOnDelete.bind(this)} taskList={taskList} />
                                         </tbody>
-                                        <tfoot>
+                                        {/* <tfoot>
                                             <tr><td colSpan="4">
-                                                <button onClick={this.addTriState} type="button" className="btn btn-primary text-center"><i className="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                                 <button onClick={this.addTriState} type="button" className="btn btn-primary text-center"><i className="fa fa-plus-circle" aria-hidden="true"></i></button> 
                                                
 
                                             </td></tr>
-                                        </tfoot>
+                                        </tfoot> */}
                                     </table>
                                 </div>
-                                {this.state.x ? 
-                                <div className="card-body">
-                                <div className="row">
-                                    <div className="col-sm-4">
-                                        <div className="form-group ">
-                                            <label className="required">Date</label>
-                                            <input type="date"  name="date" id="date" className="form-control" placeholder="Enter Date" />
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-4">
-                                        <div className="form-group ">
-                                            <label className="required">Description</label>
-                                            <textarea name="description"  id="description" className="form-control"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <table className="table">
-                                    <thead>
-                                        <tr>
-                                            <th className="required" >Your Action</th>
-                                            <th className="required" >Address</th>
-                                            <th>Notes</th>
-                                            <th>Time</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <TaskList2 add={this.addNewRowDate} delete={this.clickOnDelete2.bind(this)} taskList={taskList2} />
-                                        
-                                    </tbody>
-                                    <tfoot>
-                                        <tr><td colSpan="4">
-                                           
-
-                                        </td></tr>
-                                    </tfoot>
-                                </table>
-                            </div>:<p></p>
-                                }
-                                <div className="card-footer text-center"> <button type="submit" className="btn btn-primary text-center">Submit</button></div>
+                                {/* <div className="card-footer text-center"> <button type="submit" className="btn btn-primary text-center colorbtn">Submit</button></div> */}
+                                <div className="card-footer text-center"></div>
                             </div>
                         </div>
                         <div className="col-sm-1"></div>

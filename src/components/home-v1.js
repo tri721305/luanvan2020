@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './global-components/navbar';
 import Banner from './section-components/banner';
-import Search from './section-components/search';
+import Searach from './section-components/search';
 import Intro from './section-components/intro';
 import Offer from './section-components/offer';
 import Video from './section-components/video';
@@ -16,8 +16,8 @@ const Home_V1 = () => {
     return <div>
         <Navbar />
         <Banner />
-        <Search />
-        <Intro />
+        <Searach />
+        <Intro /> 
         <Offer />
         <Video />
         <HolidayPlan />
@@ -25,7 +25,7 @@ const Home_V1 = () => {
         <BlogSection />
         <Ads />
         <Subscribe />
-        <Footer />
+        <Footer /> 
     </div>
 }
 
