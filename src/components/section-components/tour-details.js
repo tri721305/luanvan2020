@@ -231,6 +231,7 @@ class TourDetails extends Component {
                         <h4 className="single-page-small-title">Service Location</h4>
                         <div className="service-location-map">
                           <iframe src="https://maps.google.com/maps?q=%C4%90%E1%BA%A1i%20h%E1%BB%8Dc%20b%C3%A1ch%20khoa&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+                          {/* <iframe src="https://www.google.com/maps/place/%C4%90%E1%BA%A1i+h%E1%BB%8Dc+B%C3%A1ch+Khoa/@10.772603,106.6555093,17z/data=!3m1!4b1!4m5!3m4!1s0x31752ec17709146b:0x54a1658a0639d341!8m2!3d10.772603!4d106.657698" /> */}
                         </div>
                       </div>
                       <div className="comments-area tour-details-review-area">

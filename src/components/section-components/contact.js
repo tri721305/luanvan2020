@@ -66,13 +66,13 @@ class Contact extends Component {
                 <div className="container">
                   <div className="row justify-content-center">
                     <div className="col-xl-7 col-lg-8 order-lg-12">
-                      <iframe className="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55137.3051325513!2d-97.76825118838518!3d30.263256963734733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1572085289886!5m2!1sen!2sbd" />
+                      <iframe className="contact-map" src="https://maps.google.com/maps?q=%C4%90%E1%BA%A1i%20h%E1%BB%8Dc%20b%C3%A1ch%20khoa&t=&z=13&ie=UTF8&iwloc=&output=embed"/>
                     </div>
                     <div className="col-xl-3 col-lg-4 order-lg-1">
                       <div className="contact-info bg-gray">
                         <p>
                           <i className="fa fa-map-marker" /> 
-                          <span>Lavaca Street, Suite 2000 Austin, TX 24141</span>
+                          <span>Đại học Bách Khoa , thành phố HCM</span>
                         </p>
                         <p>
                           <i className="fa fa-clock-o" /> 
@@ -80,13 +80,13 @@ class Contact extends Component {
                         </p>
                         <p>
                           <i className="fa fa-envelope" /> 
-                          <span>Email: <span>Travelpoint@gmail.com</span></span>
+                          <span>Email: <span>dhmt721305@gmail.com</span></span>
                         </p>
                         <p>
                           <i className="fa fa-phone" /> 
                           <span>
-                            sell phone: <span>(+88) 0172 570051</span> <br />
-                            telephone: <span>(+88) 07 528 7584</span>
+                            sell phone: <span>(+84) 0172 570051</span> <br />
+                            telephone: <span>(+84) 07 528 7584</span>
                           </span>
                         </p>
                       </div>

@@ -113,7 +113,7 @@ class Plan extends Component {
                             </div>
                             {/* <div className="row"> */}
                                 {listForm.map((item,index)=>{
-                                    return <div className="row" key={index}>{item}</div>
+                                    return <div className='row' key={index}>{item}</div>
                                 })}
                                 {/* <Form  />     */}
                             {/* </div> */}
